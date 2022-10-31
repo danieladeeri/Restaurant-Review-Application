@@ -1,5 +1,4 @@
 # Restaurant-Review-Application
-===============================
 
 ## Description
 
