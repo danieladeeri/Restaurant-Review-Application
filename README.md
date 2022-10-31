@@ -1,5 +1,4 @@
 # Restaurant-Review-Application
-Restaurant Reviews App (Stage 1)
 ===============================
 
 ## Description
@@ -14,7 +13,7 @@ In this project, a static webpage that lacks accessibility is given to be conver
 
 In order to run the application,
 
-* Run it localy
+* Run it locally
 * Download as .zip file or clone this project:
 
     ```
