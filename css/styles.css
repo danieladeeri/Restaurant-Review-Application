@@ -282,9 +282,28 @@ nav h1 a {
   padding: 0 20px 20px;
   position: relative;
  }
-#reviews-list li p {
+
+ #reviews-list li p {
   margin: 0 0 10px;
 }
+ #reviews-list li p:nth-child(1) {
+  width: 50%;
+  font-size: 1.2em;
+  display: inline-block;
+  line-height: 1;
+}
+#reviews-list li p:nth-child(2) {
+  width: 50%;
+  display: inline-block;
+  font-size: 0.9em;
+  text-align: right;
+  line-height: 1;
+}
+#reviews-list li p:nth-child(3) {
+  color: #f58500;
+  text-align: right;
+}
+
 #restaurant-hours td {
   color: #666;
 }
@@ -293,7 +312,8 @@ nav h1 a {
 
 @media (min-width: 458px) {
   .filter-options {
-    text-align: left;
+    justify-content: center;
+    align-items: center;
   }
 }
 
