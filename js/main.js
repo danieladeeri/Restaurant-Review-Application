@@ -79,7 +79,7 @@ fillCuisinesHTML = (cuisines = self.cuisines) => {
         scrollWheelZoom: false
       });
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.jpg70?access_token={mapboxToken}', {
-    mapboxToken: '<your MAPBOX API KEY HERE>',
+    mapboxToken: '<pk.eyJ1IjoiZGFuaWVsYWRlZXJpIiwiYSI6ImNsOXdiMDR1bjBkZzEzdnM5eDkzcHp0ZHEifQ.UXwkk1OGtD7uikyU3sAUvw>',
     maxZoom: 18,
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
       '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
